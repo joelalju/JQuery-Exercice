@@ -6,4 +6,8 @@ $(window).on("load", function() {
 			$("#foto").css({"background-image":"url(pichus.gif)"});
 		}
 	);
+	$("#foto").animate ({
+		width: "50%",
+		height: "50%"
+	}, "slow");
 });
