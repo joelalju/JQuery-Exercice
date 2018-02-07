@@ -1,6 +1,6 @@
 html, body {
-	width: 500px;
-	height: 500px;
+	width: 100%;
+	height: 100%;
 }
 
 @-moz-keyframes spin2win {
@@ -21,7 +21,7 @@ html, body {
 	width: 50%;
 	height: 50%;
 	background-size: cover;
-	background-image: url("./favicon.gif");
+	background-image: url("./pichus.gif");
 	background-repeat: no-repeat;
 	animation: spin2win linear infinite;
 	-moz-animation: spin2win linear infinite;

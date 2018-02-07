@@ -3,11 +3,15 @@ $(window).on("load", function() {
 		width: "100%",
 		height: "100%"
 	}, "slow", function() {
-			$("#foto").css({"background-image":"url(pichus.gif)"});
+			$("#foto").css({"background-image":"url(favicon.gif)"});
 		}
 	);
+
 	$("#foto").animate ({
-		width: "50%",
-		height: "50%"
-	}, "slow");
+		width: "30%",
+		height: "30%"
+	}, "slow", function() {
+			$("#foto").fadeOut("slow","swing")
+		}
+	);
 });
