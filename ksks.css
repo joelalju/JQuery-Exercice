@@ -1,0 +1,29 @@
+html, body {
+	width: 500px;
+	height: 500px;
+}
+
+@-moz-keyframes spin2win {
+	100% {
+		-moz-transform: rotateY(360deg);
+	}
+}
+
+@keyframes spin2win {
+	100% { 
+		-webkit-transform: rotateY(360deg);
+		transform: rotateY(360deg);
+	}
+}
+
+
+#foto {
+	width: 50%;
+	height: 50%;
+	background-size: cover;
+	background-image: url("./favicon.gif");
+	background-repeat: no-repeat;
+	animation: spin2win linear infinite;
+	-moz-animation: spin2win linear infinite;
+
+}
